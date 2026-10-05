@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CreditGo — Intelligent Credit Infrastructure</title>
+<meta name="description" content="CreditGo is API-first credit infrastructure for modern financial services: real-time decisioning, origination and portfolio management in one platform.">
+<meta name="theme-color" content="#070b18">
+<link rel="canonical" href="https://creditgo.io/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="CreditGo">
+<meta property="og:title" content="CreditGo — Intelligent Credit Infrastructure">
+<meta property="og:description" content="API-first credit infrastructure for modern financial services.">
+<meta property="og:url" content="https://creditgo.io/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="CreditGo — Intelligent Credit Infrastructure">
+<meta name="twitter:description" content="API-first credit infrastructure for modern financial services.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="nav" id="top">
+  <div class="container nav-inner">
+    <a class="brand" href="#top" aria-label="CreditGo home">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2.5" y="6" width="19" height="12" rx="2.5"></rect>
+          <path d="M2.5 10h19"></path>
+          <path d="M6.5 14.5h3"></path>
+        </svg>
+      </span>
+      CreditGo
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#platform">Platform</a>
+      <a href="#how">How it works</a>
+      <a href="#waitlist" class="nav-cta">Join waitlist</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot" aria-hidden="true"></span> Early access · Developer preview</p>
+        <h1>Credit infrastructure for the <span class="grad">next generation</span> of finance.</h1>
+        <p class="lede">One API for decisioning, origination and portfolio management. Ship credit products in days, not quarters — without building a risk stack from scratch.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#waitlist">Join the waitlist</a>
+          <a class="btn btn-ghost" href="#platform">Explore the platform
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="m13 6 6 6-6 6"></path></svg>
+          </a>
+        </div>
+        <ul class="hero-meta" aria-label="Platform highlights">
+          <li><b>99.99%</b><span>uptime target</span></li>
+          <li><b>&lt;200ms</b><span>decision latency</span></li>
+          <li><b>SOC 2</b><span>compliance ready</span></li>
+        </ul>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="code-card">
+          <div class="code-head">
+            <span class="tl tl-r"></span><span class="tl tl-y"></span><span class="tl tl-g"></span>
+            <span class="code-title">POST /v1/decisions</span>
+          </div>
+          <pre class="code-body"><code>{
+  <span class="k">"applicant"</span>: <span class="s">"app_8f21c"</span>,
+  <span class="k">"amount"</span>: <span class="n">15000</span>,
+  <span class="k">"term_months"</span>: <span class="n">24</span>,
+  <span class="k">"product"</span>: <span class="s">"personal_loan"</span>
+}
+
+<span class="c">// 200 OK</span>
+{
+  <span class="k">"decision"</span>: <span class="s">"approve"</span>,
+  <span class="k">"score"</span>: <span class="n">742</span>,
+  <span class="k">"limit"</span>: <span class="n">15000</span>,
+  <span class="k">"apr"</span>: <span class="n">11.4</span>
+}</code></pre>
+        </div>
+        <div class="glow" aria-hidden="true"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust bar -->
+  <section class="trust" aria-label="Built for">
+    <div class="container trust-inner">
+      <span>Built for</span>
+      <ul>
+        <li>Neobanks</li>
+        <li>Lenders &amp; fintechs</li>
+        <li>Marketplaces</li>
+        <li>Embedded finance</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="section" id="platform">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">The platform</p>
+        <h2>Everything you need to run credit</h2>
+        <p class="sub">Composable building blocks delivered as simple APIs, so your team can focus on product — not plumbing.</p>
+      </div>
+
+      <div class="grid grid-3">
+        <article class="card">
+          <span class="icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h7l-1 8 10-12h-7l1-8Z"></path></svg>
+          </span>
+          <h3>Real-time decisioning</h3>
+          <p>Score and underwrite with configurable rules and ML models. Sub-200ms responses, fully explainable outcomes.</p>
+        </article>
+
+        <article class="card">
+          <span class="icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m8 6-6 6 6 6"></path><path d="m16 6 6 6-6 6"></path></svg>
+          </span>
+          <h3>API-first architecture</h3>
+          <p>Clean REST endpoints, idempotent writes and webhooks. Embed credit workflows directly into your product.</p>
+        </article>
+
+        <article class="card">
+          <span class="icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 6v6c0 5 3.4 8.5 8 10 4.6-1.5 8-5 8-10V6l-8-4Z"></path><path d="m9 12 2 2 4-4"></path></svg>
+          </span>
+          <h3>Fraud &amp; identity</h3>
+          <p>Layered signals — device, behaviour and identity checks — to stop fraud before it reaches your book.</p>
+        </article>
+
+        <article class="card">
+          <span class="icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"></path><path d="m7 15 4-5 3 3 5-7"></path></svg>
+          </span>
+          <h3>Portfolio management</h3>
+          <p>Monitor exposure in real time, aggregate risk and automate servicing and collections from one console.</p>
+        </article>
+
+        <article class="card">
+          <span class="icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="10" rx="2"></rect><path d="M8 10V7a4 4 0 0 1 8 0v3"></path></svg>
+          </span>
+          <h3>Compliance built in</h3>
+          <p>SOC 2 and GDPR aligned by design. Encryption, audit trails and role-based access come standard.</p>
+        </article>
+
+        <article class="card">
+          <span class="icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18"></path><path d="M4 8h16"></path><path d="M4 16h16"></path></svg>
+          </span>
+          <h3>Scales with you</h3>
+          <p>Cloud-native infrastructure that goes from thousands to millions of decisions without re-platforming.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section class="section section-alt" id="how">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">How it works</p>
+        <h2>From integration to first decision</h2>
+        <p class="sub">Three steps. No six-month procurement cycle.</p>
+      </div>
+      <ol class="steps">
+        <li class="step">
+          <span class="step-num">01</span>
+          <h3>Connect</h3>
+          <p>Get sandbox keys and call the API. SDKs for the stacks you already use, plus webhooks for every lifecycle event.</p>
+        </li>
+        <li class="step">
+          <span class="step-num">02</span>
+          <h3>Configure</h3>
+          <p>Set your risk policy, products and pricing rules in the dashboard — or keep them entirely in code and version them.</p>
+        </li>
+        <li class="step">
+          <span class="step-num">03</span>
+          <h3>Launch</h3>
+          <p>Go live with real-time decisions, monitoring and audit logs. Start with one product and expand the same day.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Waitlist -->
+  <section class="section waitlist" id="waitlist">
+    <div class="container waitlist-inner">
+      <h2>Get early access</h2>
+      <p>Join the waitlist for the developer preview. We'll reach out as spots open — no spam, ever.</p>
+      <form class="waitlist-form" id="waitlist-form" novalidate>
+        <label class="sr-only" for="email">Work email</label>
+        <input id="email" name="email" type="email" inputmode="email" autocomplete="email" placeholder="you@company.com" required>
+        <button class="btn btn-primary" type="submit">Join waitlist</button>
+      </form>
+      <p class="form-note" id="form-status" role="status" aria-live="polite"></p>
+      <p class="form-alt">Prefer email? Reach us at <a href="mailto:hello@creditgo.io">hello@creditgo.io</a>.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="brand brand-sm">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="6" width="19" height="12" rx="2.5"></rect><path d="M2.5 10h19"></path><path d="M6.5 14.5h3"></path></svg>
+      </span>
+      CreditGo
+    </div>
+    <p class="copyright">&copy; <span id="year">2026</span> creditgo.io — Intelligent credit infrastructure.</p>
+  </div>
+</footer>
+
+<script src="app.js" defer></script>
+</body>
+</html>
